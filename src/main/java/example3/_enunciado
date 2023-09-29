@@ -1,0 +1,17 @@
+Como usuario quiero crear un metodo que me retorn un numero invertido en formato
+de cadena para manejarlo en otro metodo de token
+No se permiten numero negativos
+
+casos:
+input 123 output "321"
+input 100 output "001"
+input 8  output "8"
+input 80 output "08"
+input -5 output "Valor Incorrecto"
+
+public String invertir(int number){
+return cadena
+}
+
+*********
+Crear los unit test para garantizar que el metodo esta correctamente implementado
