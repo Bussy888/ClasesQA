@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39f42f81-6531-4186-af5f-510301cd4802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockExample2/PremioCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockExample2/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockExample2/_enunciado" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mocksExample1/CalcultorAdvanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mocksExample1/ServiceCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockExample2/PremioCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockexample1/CalculatorAdvancedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/badPractice/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/badPractice/Calc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example1/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example1/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example2/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example2/Nota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example2/_enunciado" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example2/_enunciado" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example3/NumeroInvertido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example3/NumeroInvertido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example3/_enunciado" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example3/_enunciado" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/basic/BasicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/BasicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example1/CalculatorParamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example1/CalculatorParamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example1/Calculatortest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example1/Calculatortest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example2/NotaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example2/NotaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example3/NumeroInvertidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example3/NumeroInvertidoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,35 +51,26 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.NumeroInvertidoTest">
-    <configuration name="BasicTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;basic.BasicTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.PremioCalculatorTest">
+    <configuration name="PremioCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mockExample2.PremioCalculator" />
+      <module name="ClasesQA.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockExample2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CalculatorParamTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -97,29 +86,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;example1.CalculatorParamTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="Calculatortest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;example1.Calculatortest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,13 +141,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PremioCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mockExample2.PremioCalculatorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PremioCalculatorTest" />
+        <item itemvalue="Application.PremioCalculator" />
         <item itemvalue="Gradle.NumeroInvertidoTest" />
         <item itemvalue="Gradle.NotaTest" />
         <item itemvalue="Gradle.CalculatorParamTest" />
-        <item itemvalue="Gradle.Calculatortest" />
-        <item itemvalue="Gradle.BasicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +183,26 @@
       <option name="presentableId" value="Default" />
       <updated>1695852857555</updated>
     </task>
+    <task id="LOCAL-00001" summary="primeros avances">
+      <created>1695946904109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695946904109</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tarea de numero invertido">
+      <created>1695946918399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695946918399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primeros avances" />
+    <MESSAGE value="Tarea de numero invertido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea de numero invertido" />
   </component>
 </project>
