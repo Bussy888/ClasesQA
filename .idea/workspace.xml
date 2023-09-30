@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39f42f81-6531-4186-af5f-510301cd4802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mockExample2/PremioCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mockExample2/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mockExample2/_enunciado" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mocksExample1/CalcultorAdvanced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mocksExample1/ServiceCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mockExample2/PremioCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mockexample1/CalculatorAdvancedTest.java" afterDir="false" />
+    <list default="true" id="39f42f81-6531-4186-af5f-510301cd4802" name="Changes" comment="Clase Mocks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicioUnitTest1/PalindromeChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicioUnitTest2/Banco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioUnitTest1/PalindromeCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioUnitTest2/BancoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example3/NumeroInvertido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example3/NumeroInvertido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +52,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.PremioCalculatorTest">
-    <configuration name="PremioCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mockExample2.PremioCalculator" />
-      <module name="ClasesQA.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mockExample2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorParamTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BancoTest">
+    <configuration name="BancoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -85,30 +66,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;example1.CalculatorParamTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NotaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;example2.NotaTest&quot;" />
+            <option value="&quot;ejercicioUnitTest2.BancoTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -132,6 +90,52 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;example3.NumeroInvertidoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PalindromeCheckerTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ejercicioUnitTest1.PalindromeCheckerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PalindromeCheckerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;EjercicioUnitTest1.PalindromeCheckerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PremioCalculatorTest" />
-        <item itemvalue="Application.PremioCalculator" />
+        <item itemvalue="Gradle.BancoTest" />
+        <item itemvalue="Gradle.PalindromeCheckerTest (1)" />
         <item itemvalue="Gradle.NumeroInvertidoTest" />
-        <item itemvalue="Gradle.NotaTest" />
-        <item itemvalue="Gradle.CalculatorParamTest" />
+        <item itemvalue="Gradle.PalindromeCheckerTest" />
+        <item itemvalue="Gradle.PremioCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,12 +201,20 @@
       <option name="project" value="LOCAL" />
       <updated>1695946918399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clase Mocks">
+      <created>1696100184125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696100184125</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeros avances" />
     <MESSAGE value="Tarea de numero invertido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea de numero invertido" />
+    <MESSAGE value="Clase Mocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clase Mocks" />
   </component>
 </project>
